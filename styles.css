@@ -1,0 +1,34 @@
+.d1,.d2,.d3,.d4 {
+    background-color: blue;
+    display: inline-block;
+    height: 1fr;
+    width: 1fr;
+    border: black 1px solid;
+    text-align: center;
+}
+
+.master {
+    display: grid;
+    grid-template-rows: 5fr 25fr 5fr 5fr;
+    gap: 1px;
+}
+
+.a,.b,.c,.d {
+    background-color: yellow;
+    border: green 1px solid;
+    display: inline-block;
+    flex-grow: 4;
+    align-self: stretch;
+}
+
+.d3 {
+    display: flex;
+}
+
+p {
+    font-size: 1.45em;
+}
+
+.big {
+    font-size: 0.725em;
+}
